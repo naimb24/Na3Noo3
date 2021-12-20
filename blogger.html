@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Na3Noo3.tn </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="shortcut icon" href="na3noo3.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener("scroll", function() {
+            var navmenu = document.getElementById("topp");
+            navmenu.classList.toggle("sticky", window.scrollY > 100);
+        })
+
+        function years() {
+            let y = document.getElementById("year");
+            let yy = new Date().getFullYear();
+            y.innerHTML = yy;
+        }
+        var interval = setInterval(years, 1000);
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/b1b760ffa5.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#toggle').click(function() {
+                $('#toggle').toggleClass('active')
+                $('#topbar').toggleClass('active')
+                $('#navigation').toggleClass('active')
+                $('#main').toggleClass('active')
+            })
+        })
+        $(document).ready(function() {
+            $('.themeswitch').click(function() {
+                $('#body').toggleClass('dark')
+            })
+        })
+        $(document).ready(function() {
+            $('#king').click(function() {
+                $('#follow-me').toggleClass('active')
+            })
+        })
+    </script>
+
+    <style>
+
+    </style>
+</head>
+
+<body id="body">
+    <div id="#"></div>
+    <div id="container">
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <ion-icon name="home" class="icon"></ion-icon> <span class="text"> Home</span></a>
+                </li>
+                <li>
+                    <a href="#what">
+                        <ion-icon name="help" title="who's us" class="icon"></ion-icon><span class="text">What is Na3Noo3.tn </span></a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <ion-icon name="alert-circle" class="icon"></ion-icon><span class="text">About</span></a>
+                </li>
+
+
+                <li>
+                    <a href="#Doc">
+                        <ion-icon name="document" class="icon"></ion-icon><span class="text">Documentations</span></a>
+                </li>
+                <br>
+                <br>
+                <li>
+                    <a href="#">
+                        <ion-icon name="download" class="icon"></ion-icon><span class="text">Download</span></a>
+                </li>
+
+            </ul>
+            <div class="themeswitch"></div>
+        </div>
+
+    </div>
+
+    <div id="main">
+
+        <div id="topbar">
+            <a href="#" id="logo">
+                <h1><img src="na3noo3.png" id="logoimg">نعنوع</h1>
+            </a>
+            <div id="toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </div>
+        <!-- banner -->
+
+        <section class="na3">
+            <div id="content">
+                <!-- <div id="imgBx">
+                    <img src="na3noo3.png">
+                </div> -->
+                <h3>Start Being Yourself</h3>
+                <p oncopy="return false">The First Arabic Progrmming Language</p>
+                <div class="btn_startcoding">
+                    <button class="scbtn"><span id="sbtntxt">Start Coding</span></button>
+                </div>
+            </div>
+        </section>
+        <section class="what" id="what">
+            <div id="title">
+                <h2>What is Na3Noo3.tn ?</h2>
+                <p>Na3Noo3 Is An Arabic Programming Language Written With Arabic Letters, <br>So It is :</p>
+            </div>
+            <div class="content">
+
+                <div id="whatbx1" class="whatbx">
+                    <ion-icon name="book-outline" id="webico"></ion-icon>
+                    <h2>So Easy To Learn</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quibusdam ut doloremque dicta suscipit iusto quae praesentium, deserunt officiis aperiam enim odio rerum libero delectus, quo, consectetur minima! Tempore, at.</p> -->
+                </div>
+
+                <div id="whatbx2" class="whatbx">
+                    <ion-icon name="open-outline" id="andico"></ion-icon>
+                    <h2>Open Source</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quibusdam ut doloremque dicta suscipit iusto quae praesentium, deserunt officiis aperiam enim odio rerum libero delectus, quo, consectetur minima! Tempore, at.</p> -->
+                </div>
+                <div id="whatbx3" class="whatbx">
+                    <ion-icon name="logo-windows" id="winico"></ion-icon>
+                    <h2>Windows Apps</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quibusdam ut doloremque dicta suscipit iusto quae praesentium, deserunt officiis aperiam enim odio rerum libero delectus, quo, consectetur minima! Tempore, at.</p> -->
+                </div>
+
+                <div class="whatbx" id="whatbx4">
+                    <ion-icon name="finger-print" id="sec"></ion-icon>
+                    <h2>Security</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quibusdam ut doloremque dicta suscipit iusto quae praesentium, deserunt officiis aperiam enim odio rerum libero delectus, quo, consectetur minima! Tempore, at.</p> -->
+                </div>
+
+
+            </div>
+        </section>
+        <section class="banner" id="about">
+
+            <div id="content">
+
+                <div id="imgBx">
+                    <img src="nb.jpg" title="NaimME">
+
+                </div>
+
+                <h3>Naim Bouchrika</h3>
+                <p oncopy="return false">Everything is possible ! Just Don't Despair. </p>
+                <ul class="socialmedia">
+                    <li>
+                        <a target="_blank" href="http://www.facebook.com/naim.bouchrika.24/" id="face">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/naimb_24/" id="inst">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/NBouchrika/" id="twit">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/naimb24/" id="github">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <!-- what -->
+
+        <!-- Doc -->
+        <section class="Doc" id="Doc">
+            <div id="title">
+                <h2>Documentations </h2>
+                <p>Docs you can with them learn na3noo3.tn . </p>
+            </div>
+            <div class="content">
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>Data Types</h4>
+                    </div>
+
+
+                    <div class="textbx">
+                        <h3>Doc 01</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+
+                </div>
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>For Loop</h4>
+                    </div>
+                    <div class="textbx">
+                        <h3>Doc 02</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+
+                </div>
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>While Loop</h4>
+                    </div>
+                    <div class="textbx">
+                        <h3>Doc 03</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+
+                </div>
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>If Statment</h4>
+                    </div>
+                    <div class="textbx">
+                        <h3>Doc 04</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+
+                </div>
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>Functions and Methods</h4>
+                    </div>
+                    <div class="textbx">
+                        <h3>Doc 05</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+                </div>
+                <div class="workbx">
+                    <div class="imgbx">
+                        <h4>Classes</h4>
+                    </div>
+                    <div class="textbx">
+                        <h3>Doc 06</h3>
+                        <a href="#" class="btn btn-info" role="button">Download <ion-icon name='download'></ion-icon> </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <!-- Doc -->
+
+
+        <!-- Copyrights -->
+        <div class="copyright">
+            <p>All Rights Reserved <span id="year">2021</span> | This Is Made by <span id="king">Naim_B24</span>.</p>
+        </div>
+
+        <div id="topp">
+            <a href="#"><span id="topico"><ion-icon name="arrow-up"class="icon"></ion-icon></span></a>
+        </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let t = document.querySelectorAll('#follow-me');
+        let cl = document.querySelectorAll('#close');
+        for (let i = 0; i < t.length; i++) {
+            t[i].onclick = function() {
+                let j = 0;
+                while (j < t.length) {
+                    t[j++].className = 'active';
+                }
+                t[i].className = 'inactive';
+            }
+
+
+        }
+    </script>
+
+</body>
+
+</html>
